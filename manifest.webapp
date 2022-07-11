@@ -1,0 +1,46 @@
+{
+  "version": "0.0.1",
+  "name": "Boot2Linux",
+  "description": "Simple KaiOS to boot the device into a GUI Linux installation, or alternatively, launch a CLI version with an SSH session",
+  "launch_path": "/index.html",
+  "type": "certified",
+  "icons": {
+    "56": "/img/tux-56.png",
+    "112": "/img/tux-112.png"
+  },
+  "developer": {
+    "name": "Xyn"
+  },
+  "origin": "app://boot2linux.xyn.ro",
+  "fullscreen": true,
+  "permissions": {
+    "engmode-extension": {
+      "description": "Handle KaiOS 2.5.1+ devices"
+    },
+    "external-api": {
+      "description": "Handle KaiOS 2.5.1+ devices"
+    },
+    "kaiosextension": {
+      "description": "Handle KaiOS 2.5 devices"
+    },
+    "jrdextension": {
+      "description": "Handle KaiOS 1.0 devices by TCL"
+    },
+    "power": {
+      "description": "Enable priviliged factory reset capability"
+    },
+    "settings": {
+      "access": "readwrite",
+      "description": "Enable hidden settings modification"
+    },
+    "device-storage:apps": {
+      "access": "readwrite",
+      "description": "Support package installation"
+    },
+    "webapps-manage": {
+      "description": "Support package installation"
+    }
+  },
+  "theme_color": "#006400",
+  "cursor": "false"
+}
