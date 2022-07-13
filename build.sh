@@ -4,7 +4,6 @@ mkdir -p build/tmp
 cp -r css build/tmp/
 cp -r img build/tmp/
 cp -r js build/tmp/
-cp -r rsrc build/tmp/
 cp -r index.html build/tmp/
 cp -r manifest.webapp build/tmp/
 cd build/tmp
